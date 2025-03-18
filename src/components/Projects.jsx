@@ -26,18 +26,18 @@ const projects = [
     icon: <FaQuestionCircle size={40} className="text-gray-700" />,
     link: "https://aliabbas0014.github.io/quizApp/",
   },
-  {
-    title: "Coming Soon",
-    description: "Exciting new project is on the way.",
-    icon: <FaCode size={40} className="text-gray-700" />,
-    link: "#",
-  },
-  {
-    title: "Coming Soon",
-    description: "Stay tuned for more amazing projects.",
-    icon: <FaWrench size={40} className="text-gray-700" />,
-    link: "#",
-  },
+  // {
+  //   title: "Coming Soon",
+  //   description: "Exciting new project is on the way.",
+  //   icon: <FaCode size={40} className="text-gray-700" />,
+  //   link: "#",
+  // },
+  // {
+  //   title: "Coming Soon",
+  //   description: "Stay tuned for more amazing projects.",
+  //   icon: <FaWrench size={40} className="text-gray-700" />,
+  //   link: "#",
+  // },
 ];
 
 const Projects = () => {
@@ -47,7 +47,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-gray-100 p-6 rounded-2xl shadow-md flex flex-col items-center transition-transform transform hover:scale-105">
+            <div key={index} className="bg-gray-100 p-6 rounded-2xl shadow-md flex flex-col items-center transition-transform transform duration-500 hover:scale-105">
               {project.icon}
               <h3 className="text-xl font-semibold mt-4">{project.title}</h3>
               <p className="text-gray-600 mt-2 text-center">{project.description}</p>

@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-gray-900">Ali Abbas</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold mt-2 text-gray-700">
-            Full-Stack Developer
+            Front-End Developer
           </h2>
           <p className="text-gray-600 mt-4">
             Passionate about building web applications with modern technologies.
@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="relative flex-1 flex justify-center">
   <div className="w-40 h-40 md:w-40 md:h-40 lg:w-65 lg:h-65 rounded-full p-1 bg-gradient-to-tr from-black-900 via-red-800 to-gray-900 shadow-lg ">
     <img
-      src="/portfolio-website/images/my.jpg"
+      src="/my-portfolio/images/my.jpg"
       alt="Ali Abbas"
       className="w-full h-full object-cover rounded-full border-4 border-white"
     />
